@@ -42,3 +42,77 @@ alias
 alias chain_command="ls -a" // to add ls -a into a custom alias.
 chain_command // to execute the alias
 
+/*
+	Find the path of a installed commands.
+*/
+which <name-of-the-program>
+which nano
+
+/*
+	Get information of TCP and UDP connections
+*/
+netstat
+
+/*
+	Get the IP address of the machine.
+*/
+ip addr
+ip route
+
+/*
+	Download the files. Via Terminal.
+*/
+wget google.com/
+wget 
+curl <file-name> // alternative command to download file, Can also be used with APIs. (POST/GET)
+
+/*
+	Open files in terminal (preview the file)
+*/
+cat <file-name>
+
+/*
+	Quick pass text or output to a file and save with echo.
+*/
+echo "testing-video" > one.txt
+cat one.txt //check the content.
+
+/*
+	find created files in the system.
+*/
+sudo find -name *.txt
+
+/*
+	Running processes in the system.
+*/
+top
+
+/*
+	Size of a directry or a file.
+*/
+du -hc
+
+/*
+	ping a server external.
+*/
+ping  <url-of-the-server>
+
+
+/*
+	check network hops in routes.
+*/
+traceroute www.google.com
+
+/*
+	nslookup command for get the server informatino when provide the IP address. DNS information.
+*/
+nslookup google.com/
+
+/*
+	ssh commands login to another divice with authentication.
+*/
+ssh akash@192.168.1.232 // log into a linux terminal.
+
+
+
+
