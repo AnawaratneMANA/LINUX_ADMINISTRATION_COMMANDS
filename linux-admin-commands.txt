@@ -1,0 +1,5 @@
+/*
+	Search in Linux Terminal. pg can be replaced with the "search-keyword"
+*/
+man grep //for more information about the grep.
+ls | grep pg
