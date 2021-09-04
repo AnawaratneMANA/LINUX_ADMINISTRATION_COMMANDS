@@ -3,3 +3,42 @@
 */
 man grep //for more information about the grep.
 ls | grep pg
+
+/*
+	find the uptime of the machine or the service. 
+*/
+uptime
+
+/*
+	Final the memory information.
+*/
+free -g // get details in gigabyte.
+free -m // get details in megabyte.
+
+/*
+	get information of all our mounted devices. 
+*/
+
+df -h
+
+/*
+	See all the mounted drive information.
+*/
+
+fdisk -l
+
+/*
+	All the processes running by the current user or all users.
+*/
+
+ps 
+ps a // from the current user
+ps au // from all users 
+
+/*
+	To shorten complex codes in linux. With alias.
+*/
+alias
+alias chain_command="ls -a" // to add ls -a into a custom alias.
+chain_command // to execute the alias
+
