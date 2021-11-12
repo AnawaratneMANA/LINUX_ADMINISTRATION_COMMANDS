@@ -1,0 +1,35 @@
+/* Find the Up-time of the Users */
+uptime
+
+/* Broadcast message to all the users in the Linux System */
+wall message
+
+/* Send message to a specific user */
+write tim 
+/**
+    once the command issued we can continuously write to the users until terminated the session.
+**/
+
+/* Display all the users that are logged into the system */
+who
+
+/* Memory information about the system */
+free
+
+/* Sort a file */
+sort <filename.txt>
+
+/* Shutdown the linux computer */
+showdown -h +10 // Shut down the machine in 10 minutes
+showdown -h now // Shut down the machine immediately.
+
+/* Restart the machine */
+shutdown -r now 
+
+/* Manual command to learn commands in the linux system */
+man <command>
+whatis <command> // one line command description.
+
+/* Tailing files */
+tail <filename.txt>
+talil -n 3 <filename.txt> // Spicify the number of lines we need.
