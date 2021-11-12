@@ -1,0 +1,53 @@
+/* Update the pointed repositories. */ 
+sudo apt update
+
+/* Show upgradable files */ 
+sudo apt list --upgradable.
+
+/* Update the pointed repositories. */ 
+sudo apt upgrade.
+
+/* Install packages using apt */
+sudo apt install vlc
+
+/* Remove packages using apt */
+sudo apt remove vlc
+sudo apt purge vlc // Remove all the files including configs.
+sudo apt autoremove // Delete all the associated files.  
+
+/* List all the packages are in the system */
+sudo apt list
+
+/* Search for the specific function */
+sudo search spotify
+
+/* Get information about certain package in the system */
+sudo apt show vlc
+
+/* Download the executable package */
+apt download vlc // It will download the .deb file
+
+/* Reinstall a Application */
+sudo apt reinstall vlc
+
+
+/** How to DPKG commands to install local files in Linux **/
+
+/* Install a Local package with dpkg */
+sudo dpkg -i '<name of the file>'
+
+/* List all teh packages installed in the system */
+dpkg -l
+dpkg -l | grep <name of the package>
+
+/* Status of the package installed */
+dpkg -s <name of the package>
+
+/* See all the files that are associated with a package. */
+dpkg -L <name of the package>
+
+/* Remove a package installed */
+sudo dpkg -r <name of the package>
+
+
+
