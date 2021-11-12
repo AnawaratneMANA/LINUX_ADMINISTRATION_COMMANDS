@@ -6,6 +6,7 @@ sudo apt list --upgradable.
 
 /* Update the pointed repositories. */ 
 sudo apt upgrade.
+sudo apt full-upgrade
 
 /* Install packages using apt */
 sudo apt install vlc
@@ -30,6 +31,15 @@ apt download vlc // It will download the .deb file
 /* Reinstall a Application */
 sudo apt reinstall vlc
 
+/* Fix broken installations */
+apt --fix-broken install
+
+
+
+
+/** How to Install With Snap **/
+Follow the official document for all the snap commands varients - https://snapcraft.io/docs/getting-started
+
 
 /** How to DPKG commands to install local files in Linux **/
 
@@ -48,6 +58,17 @@ dpkg -L <name of the package>
 
 /* Remove a package installed */
 sudo dpkg -r <name of the package>
+
+
+/** Extra Linux Command Knowladge **/
+sudo apt update && sudo apt upgrade. // Running both commands at once.
+
+/* Get a list of processes running */
+ps
+
+/* Kill a project */
+kill -9 <prcessID>
+
 
 
 
