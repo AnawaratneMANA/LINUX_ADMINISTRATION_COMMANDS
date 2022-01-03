@@ -2,7 +2,7 @@
 
 ![GitHub Logo](linux-commands-image.png)
 
-Following Project Includes.
+**Following Project Includes**
 - Linux Basics Commands for Handling Files.
 - Network Basics.
 - Package Management Commands with API Package Manager.
