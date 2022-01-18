@@ -1,0 +1,5 @@
+// Creating a SWAP file.
+
+// Make it a SWAP config file.
+
+// Attached it as a SWAP and reboot the system.
